@@ -3,6 +3,5 @@ pandas
 plotly
 matplotlib
 seaborn
-json
 statsmodels
 scikit-learn
