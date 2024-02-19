@@ -37,9 +37,9 @@ def generate_map(delitos_df, geojson, var):
 st.sidebar.header('Índice')
 variable_seleccionada = st.sidebar.selectbox('Selecciona una página:', ["Estadísticas por variables","Cruces de datos","Mapas principales","Mapas delitos","Regresiones","Cuestionarios"])
 
-geojson_path = 'C:/Users/isarm/Desktop/Salud mental y violencia/mapas/comunas.geojson'  # Asegúrate de actualizar esta ruta
-reg_path = 'C:/Users/isarm/Desktop/Salud mental y violencia/Bases/Base_regresiones.dta'
-reg_path2 = 'C:/Users/isarm/Desktop/Salud mental y violencia/Bases/Base_regresiones2.dta'  # Asegúrate de actualizar esta ruta
+geojson_path = 'comunas.geojson'  # Asegúrate de actualizar esta ruta
+reg_path = 'Base_regresiones.dta'
+reg_path2 = 'Base_regresiones2.dta'  # Asegúrate de actualizar esta ruta
 df_reg = load_delitos_data(reg_path)
 
 
