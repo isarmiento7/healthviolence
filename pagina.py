@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import json
 #import plotly.express as px
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set()
 def load_geojson(path):
