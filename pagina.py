@@ -178,7 +178,7 @@ if variable_seleccionada=="Mapas principales":
     st.title('Mapas comparativos')
     
     
-    delitos_path2 = 'C:/Users/isarm/Desktop/Salud mental y violencia/Bases/Base_mapas.dta'  # Asegúrate de actualizar esta ruta
+    delitos_path2 = 'Base_mapas.dta'  # Asegúrate de actualizar esta ruta
     
     geojson = load_geojson(geojson_path)
     delitos_df = load_delitos_data(delitos_path2)
@@ -288,7 +288,7 @@ if variable_seleccionada=="Mapas delitos":
     st.title('Mapa de Tasas de Delitos por Comuna por año')
     
     
-    delitos_path = 'C:/Users/isarm/Desktop/Salud mental y violencia/Bases/tasas_delitos.dta'  # Asegúrate de actualizar esta ruta
+    delitos_path = 'tasas_delitos.dta'  # Asegúrate de actualizar esta ruta
     
     geojson = load_geojson(geojson_path)
     delitos_df = load_delitos_data(delitos_path)
