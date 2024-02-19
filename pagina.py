@@ -187,7 +187,7 @@ if variable_seleccionada=="Mapas principales":
     
     
     vm1 = {
-        "Índice percepción violencia": "h4i",
+        "Índice percepción h4": "h4i",
         "Satisfacción seguridad": "satisfaccion",
         "Depresión": "depre",
         "Ansiedad":"ansiedad",
